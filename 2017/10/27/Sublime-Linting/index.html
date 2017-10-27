@@ -47,6 +47,32 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500/css?family=Roboto:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -95,7 +121,7 @@
 <meta property="og:image" content="https://cdn-images-1.medium.com/max/1600/1*ivF-zNOM_HJiaqOqLsEpUA.png">
 <meta property="og:image" content="https://cdn-images-1.medium.com/max/1600/1*Ghb1vtyQXM1-5O5YfNiWTA.png">
 <meta property="og:image" content="https://cdn-images-1.medium.com/max/1600/1*svu6_XwfScSHp4QXJeWXBA.png">
-<meta property="og:updated_time" content="2017-10-27T09:46:08.944Z">
+<meta property="og:updated_time" content="2017-10-27T16:32:38.777Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sublime Linting for React and ES6">
 <meta name="twitter:description" content="Few months ago I wrote this article on medium. But I thought I should also post it here. And so here it is. StoryLately Im having problem implementing linter on Sublime Text for my team that has supp">
@@ -381,10 +407,10 @@
 <p>Few months ago I wrote this article on <a href="https://medium.com/@dna.mr.b/sublime-linting-for-react-and-es6-668fa9fa1e1c" target="_blank" rel="external">medium</a>. But I thought I should also post it here. And so here it is.</p>
 <h2 id="Story"><a href="#Story" class="headerlink" title="Story"></a>Story</h2><p>Lately Im having problem implementing linter on Sublime Text for my team that has support for <code>React/JSX</code> and <code>ES6</code> syntax following some tutorials on the interweb… So I decided to share the steps here as others might have the same problem. I find this extremely helpful in our team as it provides uniform formats and style guides all throughout the code base.</p>
 <p>If your new to <a href="http://eslint.org/docs/user-guide/configuring" target="_blank" rel="external">Eslint</a> please follow the link to their documentation. What this is all about is to outline the errors/issues within your JS/JSX code within Sublime Text Editor. So let’s dive in. :-)</p>
- <a id="more"></a>
 <h2 id="First…"><a href="#First…" class="headerlink" title="First…"></a>First…</h2><p>Make sure you have the new build of <a href="https://www.sublimetext.com/" target="_blank" rel="external">Sublime Text Editor</a> installed. The latest build is 3126. I haven’t tried this on the previous versions. </p>
 <h2 id="Install-eslint-globally-in-you-system"><a href="#Install-eslint-globally-in-you-system" class="headerlink" title="Install eslint globally in you system."></a>Install eslint globally in you system.</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install eslint -g</div></pre></td></tr></table></figure>
 <p><em>Note: If ever installing globally won’t work. Try installing locally on your project. In most cases global should just work but I find other’s not working and will work if installed locally.</em></p>
+ <a id="more"></a>
 <h2 id="Install-the-following-eslint-plugins-globally"><a href="#Install-the-following-eslint-plugins-globally" class="headerlink" title="Install the following eslint plugins globally."></a>Install the following eslint plugins globally.</h2><p>I used Babel-Eslint for our parser. You can have a different parser for this purpose. It can be configure in y0ur eslint config file. Will get to that later.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">babel-eslint -g</div></pre></td></tr></table></figure>
 <p>Install React Plugin for Eslint. We’re gonna be using this to define our React rules within eslint config.</p>

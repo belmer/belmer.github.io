@@ -47,6 +47,32 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500/css?family=Roboto:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -374,9 +400,12 @@
 
       
         
-          <p><img src="https://cdn-images-1.medium.com/max/1600/1*1lSS1knquUcyMcH-n67l_A.jpeg" alt="Jargons"></p>
-<p>In this article, I will use Javascript Jargons as an example.</p>
+          <p>In this article, I will use Javascript Jargons as an example.</p>
 <p>A lot of developers or programmers(specially to the country where I came from), You and Me and mostly Junior to Mid-level developers have been through this. At some point in time we wrote codes that we barely know what it means as long as we know that it works the way we want it to be or even not in the way that we want (this will make us wonder why?).</p>
+<p>Consider the following:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> animal = <span class="string">'dog'</span>;</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">whatAnimal</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(animal);  <span class="comment">// undefined (not dog)</span></div><div class="line">    <span class="keyword">var</span> animal = <span class="string">'cow'</span>;</div><div class="line">    <span class="built_in">console</span>.log(animal);  <span class="comment">// cow</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>You might wonder why line 3 is <strong>“undefined”</strong>, specially if your coming from other programming language. Like Java perhaps. Here’s another one:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hello(); <span class="comment">// Hello there</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">hello</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">"Hello there"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2017/10/27/Language-Jargon/#more" rel="contents">
@@ -515,6 +544,9 @@
 <p>Few months ago I wrote this article on <a href="https://medium.com/@dna.mr.b/sublime-linting-for-react-and-es6-668fa9fa1e1c" target="_blank" rel="external">medium</a>. But I thought I should also post it here. And so here it is.</p>
 <h2 id="Story"><a href="#Story" class="headerlink" title="Story"></a>Story</h2><p>Lately Im having problem implementing linter on Sublime Text for my team that has support for <code>React/JSX</code> and <code>ES6</code> syntax following some tutorials on the interweb… So I decided to share the steps here as others might have the same problem. I find this extremely helpful in our team as it provides uniform formats and style guides all throughout the code base.</p>
 <p>If your new to <a href="http://eslint.org/docs/user-guide/configuring" target="_blank" rel="external">Eslint</a> please follow the link to their documentation. What this is all about is to outline the errors/issues within your JS/JSX code within Sublime Text Editor. So let’s dive in. :-)</p>
+<h2 id="First…"><a href="#First…" class="headerlink" title="First…"></a>First…</h2><p>Make sure you have the new build of <a href="https://www.sublimetext.com/" target="_blank" rel="external">Sublime Text Editor</a> installed. The latest build is 3126. I haven’t tried this on the previous versions. </p>
+<h2 id="Install-eslint-globally-in-you-system"><a href="#Install-eslint-globally-in-you-system" class="headerlink" title="Install eslint globally in you system."></a>Install eslint globally in you system.</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install eslint -g</div></pre></td></tr></table></figure>
+<p><em>Note: If ever installing globally won’t work. Try installing locally on your project. In most cases global should just work but I find other’s not working and will work if installed locally.</em></p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2017/10/27/Sublime-Linting/#more" rel="contents">
@@ -653,7 +685,9 @@
 <blockquote>
 <p>Tic-tac-toe is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. </p>
 </blockquote>
-<h3 id="Click-here-for-live-demo"><a href="#Click-here-for-live-demo" class="headerlink" title="Click here for live demo."></a><a href="https://belmer0tictactoe.github.io/" target="_blank" rel="external">Click here for live demo.</a></h3>
+<h3 id="Click-here-for-live-demo"><a href="#Click-here-for-live-demo" class="headerlink" title="Click here for live demo."></a><a href="https://belmer0tictactoe.github.io/" target="_blank" rel="external">Click here for live demo.</a></h3><h1 id="Stack"><a href="#Stack" class="headerlink" title="Stack"></a>Stack</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Reactjs</div><div class="line">Redux</div><div class="line">React-router v4</div><div class="line">ES6</div><div class="line">NodeJs</div><div class="line">Firebase</div><div class="line">Twitter Bootstrap (Flatly custom theme)</div></pre></td></tr></table></figure>
+<h2 id="Play-with-your-friends-or-play-with-AI"><a href="#Play-with-your-friends-or-play-with-AI" class="headerlink" title="Play with your friends or play with AI"></a>Play with your friends or play with AI</h2><p>AI is using Minimax algorithim <a href="https://en.wikipedia.org/wiki/Minimax" target="_blank" rel="external">https://en.wikipedia.org/wiki/Minimax</a></p>
+<p>Let’s see if you can beat em… :-)</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2017/10/27/Tic-Tac-Toe/#more" rel="contents">
