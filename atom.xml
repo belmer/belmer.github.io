@@ -61,11 +61,11 @@
     </summary>
     
     
-      <category term="javascript" scheme="https://belmer.github.io/tags/javascript/"/>
-    
       <category term="sublime" scheme="https://belmer.github.io/tags/sublime/"/>
     
       <category term="reactjs" scheme="https://belmer.github.io/tags/reactjs/"/>
+    
+      <category term="javascript" scheme="https://belmer.github.io/tags/javascript/"/>
     
   </entry>
   
@@ -89,9 +89,9 @@
     </summary>
     
     
-      <category term="javascript" scheme="https://belmer.github.io/tags/javascript/"/>
-    
       <category term="reactjs" scheme="https://belmer.github.io/tags/reactjs/"/>
+    
+      <category term="javascript" scheme="https://belmer.github.io/tags/javascript/"/>
     
       <category term="nodejs" scheme="https://belmer.github.io/tags/nodejs/"/>
     
